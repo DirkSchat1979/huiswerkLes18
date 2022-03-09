@@ -1,0 +1,124 @@
+body {
+  background-color: #ffcc00;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+#content {
+  padding-top: 275px;
+  margin: 0 10px;
+}
+
+.kop {
+  background-image: url(images/luchtshot-katwijk.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #339999;
+  border: 2px solid #339999;
+  color: #fff;
+  margin: 0 10px 25px;
+  min-height: 250px;
+  position: fixed;
+  text-align: center;
+  width: 96.5%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+ul {
+  background-color: #339999;
+  padding: 20px;
+  list-style-type: none;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.site-bar li {
+  line-height: 1.2;
+  padding: 1px 0;
+}
+
+.article {
+  background-color: #339999;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  padding: 10px;
+  min-height: 230px;
+}
+
+img {
+  float: right;
+  padding: 5px;
+}
+
+.staart {
+  text-align: center;
+  background-color: #339999;
+  margin: 0 10px;
+  min-height: 100px;
+  width: 97%;
+}
+
+@media only screen and (min-width: 768px) {
+  
+    [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  .kop {
+    background-size: 60%;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
